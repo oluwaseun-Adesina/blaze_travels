@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="travel_reommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search destinations or keywords...">
+            <button onclick="search()">Search</button>
+            <button onclick="resetSearch()">Reset</button>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="content-section">
+        <div class="background-image">
+            <div class="content-overlay">
+                <div class="social-media-links">
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                </div>
+                <h1>Explore the World, Discover New Destinations</h1>
+                <p>Immerse yourself in different cultures, try new foods, and make unforgettable memories. Our platform
+                    helps you find the perfect destination for your next adventure.</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Results Section -->
+    <div class="search-results" id="search-results"></div>
+
+    <!-- Brief Description -->
+    <div class="brief-description">
+        <p>Cultural exploration is at the heart of our platform. We believe that traveling is not just about seeing new
+            places, but about immersing yourself in new experiences and making meaningful connections with the people
+            and cultures you encounter.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Travel Recommendation Platform. All rights reserved.</p>
+    </footer>
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-id.js" crossorigin="anonymous"></script>
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>
